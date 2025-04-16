@@ -13,9 +13,9 @@ y = np.array([[0], [1], [1], [0]])
 
 # Inicialização de pesos e bias com valores aleatórios
 np.random.seed(42)
-weights_1 = np.random.rand(2, 4)  # da entrada para camada oculta (1x2)
-bias_1 = np.random.rand(1, 4)     # bias da camada oculta (1x2)
-weights_2 = np.random.rand(4, 1)  # da camada oculta para saída (2x1)
+weights_1 = np.random.rand(2, 4)  # das entradas para camada oculta (2x4)
+bias_1 = np.random.rand(1, 4)     # bias da camada oculta (1x4)
+weights_2 = np.random.rand(4, 1)  # da camada oculta para saída (4x1)
 bias_2 = np.random.rand(1, 1)     # bias da saída
 
 # Taxa de aprendizado
